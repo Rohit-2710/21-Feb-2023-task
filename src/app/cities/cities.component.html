@@ -1,0 +1,21 @@
+<div>
+    <ul *ngFor="let n of names">
+         <li>{{n.name}} {{n.technology}} {{n. experience}} {{n.city}}</li>
+    </ul>
+</div>
+<div>
+    <h3>Candidate with highest experience</h3>
+    <ul *ngFor="let j of exp">
+         <li>{{j.name}} {{j.technology}} {{j.city}} {{j.experience}}</li>
+    </ul>
+</div>
+
+<div>
+    <h3>Fresher Candidate</h3>
+    <ul *ngFor="let i of fresh">
+         <li>{{i.name}} {{i.technology}} {{i.city}} {{i.experience}}</li>
+    </ul>
+</div>
+<div>
+    <h3>Max experience is {{exper}}</h3>
+</div>
